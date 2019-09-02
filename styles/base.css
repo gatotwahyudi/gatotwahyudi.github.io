@@ -1,0 +1,245 @@
+/* Body Style: BEGIN */
+body {
+    background-color: #FFFFFF;
+    color: #353535;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+/* Body Style: END */
+
+/* Hyperlynk / Anchor: BEGIN */
+/* Link - unvisited */
+a:link {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+/* Link - mouse over */
+a:hover {
+    color: #AA3333;
+}
+
+/* Link - selected */
+a:active {
+    color: lightseagreen;
+}
+/* Hyperlink / Anchor: END */
+
+/* Link - visited */
+a:visited {
+    color: lightseagreen;
+}
+/* Hyperlink / Anchor: END */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+/*************************** CLASS ************************/
+.container {
+    width: 90%;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.container-full {
+    width: 100%;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+/* Tester / Debugger: BEGIN */
+.bg-aqua {
+    background-color: aquamarine;
+}
+.bg-beige {
+    background-color: beige;
+}
+.bg-cadet {
+    background-color: cadetblue;
+}
+/* Tester / Debugger: END */
+
+/* Main Logo: BEGIN */
+.logo {
+    text-align: center;
+}
+/* Main Logo: END */
+
+/* Menu Primary: BEGIN */
+.menu-primer ul {
+    background-color: #333333;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0  rgba(0, 0, 0, 0.14), 
+        0 1px 18px 0  rgba(0, 0, 0, 0.12);
+}
+
+.menu-primer li {
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #FFFFFF;
+    color: #AA3333;
+    font-weight: 300;
+}
+
+.menu-primer .active {
+    background-color: #FFFFFF;
+    color: forestgreen;
+}
+/* Menu Primary: END */
+
+/* Jumbotron: BEGIN */
+.jumbotron {
+    background-color: #f6F8fa;
+    border: solid 1px #eaecef;
+    border-radius: 4px;
+    padding: 20px 0px;
+}
+
+.jumbotron h1 {
+    font-size: 28px;
+    padding: 0px 20px;
+}
+
+.jumbotron h3 {
+    font-size: 24px;
+    padding: 0px 20px;
+}
+/* Jumbotron: END */
+
+/* HomeBox2: BEGIN */
+.box2-left {
+    float: left;    
+    width: 49.5%;
+}
+
+.box2-right {
+    float: right;
+    width: 49.5%;
+}
+
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 5px 5px 0 0; /* Left Top Right */
+    padding: 15px 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-content {
+    background-color: #ffffff;
+    border: solid  1px #d1d5da;
+    border-top: 0;
+    height: 140px;
+    padding: 10px 0px;
+    overflow: auto;
+}
+/* HomeBox2: END */
+
+/* Menu Secondary: BEGIN */
+.menu-sekunder {
+    background-color: #a6f8fa;
+    border-top: solid 1px #eaecef;
+    border-bottom: solid 1px #eaecef;
+    overflow: auto;
+    padding: 20px 0px;
+}
+
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+    padding: 0;
+}
+
+.menu-sekunder li {
+    padding: 2px 0px;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+
+.menu-sekunder-1 {
+    width: 40%;
+    float: left;
+}
+
+.menu-sekunder-2 {
+    width: 30%;
+    float: left;
+}
+
+.menu-sekunder-3 {
+    width: 30%;
+    float: left;
+}
+/* Menu Secondary: END */
+
+/* Copyright: BEGIN */
+.copyright p {
+    font-size: 15px;
+}
+/* Copyright: END  */
+
+
+/* Testimonial */
+.testimonial {
+    border-left: solid 4px #ecefef;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.breadcrumb {
+    background-color: #f6F8fa;
+    color: #556779;
+    border-radius: 4px;
+
+}
+.breadcrumb h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 20px;
+    margin: 0;
+}
