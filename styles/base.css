@@ -169,9 +169,16 @@ h6 {
     background-color: #ffffff;
     border: solid  1px #d1d5da;
     border-top: 0;
-    height: 140px;
     padding: 10px 0px;
     overflow: auto;
+}
+
+.box-content p {
+    margin: 10px 20px;
+}
+
+.box-content-fixed {
+    height: 140px;
 }
 /* HomeBox2: END */
 
@@ -231,7 +238,9 @@ h6 {
     padding-left: 30px;
 }
 
+/* Breadcrumb: BEGIN */
 .breadcrumb {
+    border: solid 1px #ecefef;
     background-color: #f6F8fa;
     color: #556779;
     border-radius: 4px;
@@ -243,3 +252,32 @@ h6 {
     padding: 15px 20px;
     margin: 0;
 }
+/* Breadcrumb: END */
+
+/* Table: BEGIN */
+.table {
+    border: 1px solid #a1a5aa;
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+}
+
+.table th {
+    background-color: #d1d5da;
+}
+
+.table td {
+    text-align: center;
+}
+/* Table: BEGIN */
+
+/* SideBar: BEGIN */
+.content-sidebar {
+    width: 29%;
+    float: right;
+}
+.content-main {
+    width: 70%;
+    float: left;
+}
+/* SideBar: END  */
