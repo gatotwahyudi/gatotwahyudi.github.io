@@ -1,0 +1,10 @@
+.box {
+    border: solid 1px red;
+    width: 300px;
+    display: inline-block;
+}
+.boxcontainer {
+    display: block;
+    text-align: center;
+    background-color: cyan;
+}
